@@ -35,25 +35,6 @@ export class CustomizedMap {
 
 }
 
-//     showInfo(pin: Student | Internship) {
-//         const infoWindow = new google.maps.InfoWindow()
-//         if (pin instanceof Student) {
-//             infoWindow.setContent(`${pin.firstName} ${pin.lastName}`)
-//         } else {
-//             infoWindow.setContent(`Welcome to ${pin.businessName}'s Internship`)
-//         }
-//         let anchor = new google.maps.Marker({
-//             position: Student.location,
-//             map: map,
-//         });
-//         anchor.addListner('click', () => {
-//             infoWindow.open(this.googleMap, this.addPin)
-//         })
-//     }
-
-// }
-
-
 
 //     addStudentMarker(student: Student) {
     //       new google.maps.Marker({
